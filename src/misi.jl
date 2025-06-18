@@ -14,7 +14,7 @@ function nadir_index(glucose)
 
     i = 1
     dg = diff(glucose_after_peak)
-    while i <= length(dg) && dg[i] < 0
+    while i <= length(dg) && dg[i] <= 0
         i += 1
     end
 
@@ -141,6 +141,3 @@ function misi(excel_file::String, output_file_name::String)
     println("MISI results written to ", output_file_name)
     return result_df
 end
-
-
-
