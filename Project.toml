@@ -1,0 +1,16 @@
+name = "MISICalculator"
+uuid = "3901c41a-57e2-4daa-88ac-c7c1f35fd76d"
+authors = ["max-de-rooij <54850292+max-de-rooij@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
+XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
+
+[compat]
+CairoMakie = "0.14.0"
+DataFrames = "1.7.0"
+DataInterpolations = "8.0.1"
+XLSX = "0.10.4"
