@@ -107,7 +107,7 @@ In Windows, we noticed that notebooks may sometimes error when trying to open th
  
 
 You can download this GitHub repository  by clicking on the green CODE button and selecting Download ZIP. and open it in Visual Studio Code. 
-<img src="assets/Download_repository.png" width="280" height="70">
+<img src="assets/Dowload_repository.png" width="280" height="70">
 
 Extract the files in this folder and naviage to the folder location in Visual Studio Code interface by selecting 'Open Folder' in the File Tab. 
 
