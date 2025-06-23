@@ -1,4 +1,4 @@
-<img src="assets/TUe(1).png" width="280" height="70"> <img src="assets/EAISI(1).png" width="200" height="60"> 
+<img src="assets/TUe (1).png" width="280" height="70"> <img src="assets/EAISI (1).png" width="200" height="60"> 
 
 # MISICalculator.jl
 This is a Julia package for calculating the Muscle Insulin Sensitivity Index (MISI) from glucose and insulin data from an oral glucose tolerance test (OGTT). The code is based on the work and the [MATLAB GUI](https://github.com/shauna-odonovan/MISI-Calculator) of O’Donovan et al. [^1]. 
