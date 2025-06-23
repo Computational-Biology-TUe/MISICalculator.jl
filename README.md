@@ -6,7 +6,7 @@ This is a Julia package for calculating the Muscle Insulin Sensitivity Index (MI
 ![example](assets/example.png)
 
 > [!CAUTION]
-> This package is still fully under construction and not all features are implemented yet. The API is not stable and may change drastically in the future. Please use with caution. 
+> This package is still fully under construction and not all features are implemented yet. The API is not stable and may change drastically in the future. Please use with caution. If you encounter any problems, please contact [Shauna O'Donovan](s.d.odonovan@tue.nl) or [raise an issue](https://github.com/Computational-Biology-TUe/MISICalculator.jl/issues/new/choose).
 
 ## Instructions
 </div>
