@@ -117,7 +117,7 @@ Open the `calculate_misi.jl` file and edit the `INPUT_FILE_NAME` and `OUTPUT_FIL
 <img src="assets/Run_MISI.PNG" width="700" height="400">
 
 > [!IMPORTANT]
-> Make sure your input file is an Excel file that is formatted in the same way as the example file: `sample.xlsx`.
+> Make sure your input file is an Excel file that is formatted in the same way as the example file: `Sample_Data.xlsx`.
 
 ## References
 [^1]: O’Donovan, S. D. et al. Improved quantification of muscle insulin sensitivity using oral glucose tolerance test data: the MISI Calculator. Sci Rep 9, 9388 (2019).
