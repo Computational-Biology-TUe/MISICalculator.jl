@@ -108,13 +108,13 @@ In Windows, we noticed that notebooks may sometimes error when trying to open th
 
 You can download this GitHub repository  by clicking on the green CODE button and selecting Download ZIP. and open it in Visual Studio Code. 
 
-<img src="assets/Dowload_repository.PNG" width="280" height="70">
+<img src="assets/Dowload_repository.PNG" width="400" height="500">
 
 Extract the files in this folder and naviage to the folder location in Visual Studio Code interface by selecting 'Open Folder' in the File Tab. 
 
 Open the `calculate_misi.jl` file and edit the `INPUT_FILE_NAME` and `OUTPUT_FILE_NAME` variables to match your desired files. Then, run the file by pressing `F5` or by clicking on the "Run" button in the top right corner of the editor (red circle).
 
-<img src="assets/Run_MISI.PNG" width="280" height="70">
+<img src="assets/Run_MISI.PNG" width="400" height="500">
 
 > [!IMPORTANT]
 > Make sure your input file is an Excel file that is formatted in the same way as the example file: `sample.xlsx`.
