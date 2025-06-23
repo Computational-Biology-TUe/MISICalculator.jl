@@ -12,7 +12,7 @@ This is a Julia package for calculating the Muscle Insulin Sensitivity Index (MI
 </div>
 
 ## Julia Installation and Environment Setup
-Here you will find some instructions on how to make sure the code from this repository can run on your computer. The workshop is built to fully work with Julia version 1.9. In this instruction, we will assume you are installing the latest stable version of Julia, but any other version is installed in a similar way. 
+Here you will find some instructions on how to make sure the code from this repository can run on your computer. In this instruction, we will assume you are installing the latest stable version of Julia, but any other version is installed in a similar way. 
 
 
 ### Installing Julia using the Julia version manager (juliaup) (recommended)
