@@ -64,17 +64,26 @@ Type `Julia` in the search bar and install the Julia Language Support extension.
 
 ---
 
-### Setting up the workshop environment
+### Setting up the environment
 After installing Julia, you can either fork this repository to your own Github account and download the code from there, or download the code directly from this repository into a Zip-file by selecting `Code` -> `Download ZIP`. 
 
-Put the workshop code in a nice folder and open this folder from VSCode.
+<img src="assets/Dowload_repository.PNG" width="700" height="400">
 
-Now there are two ways to initialize the environment. 
+Extract the files in this folder and naviage to the folder location in Visual Studio Code interface by selecting 'Open Folder' in the File Tab. 
 
-#### 1. Use the first code block in the 01-Getting-Started file
-Uncomment the first code block in the `01-Getting-Started.ipynb` file to automatically set up the environment.
+Open the `calculate_misi.jl` file and edit the `INPUT_FILE_NAME` and `OUTPUT_FILE_NAME` variables to match your desired files. Then, run the file by pressing `F5` or by clicking on the "Run" button in the top right corner of the editor (red circle).
 
-#### 2. Use the VSCode terminal
+<img src="assets/Run_MISI.PNG" width="700" height="400">
+
+> [!IMPORTANT]
+> Make sure your input file is an Excel file that is formatted in the same way as the example file: `Sample_Data.xlsx`.
+
+> [!INFO]
+> The `calculate_misi.jl` file automatically installs the necessary packages and activates the right environment for running the MISI calculator.
+
+If you want to manually activate the environment, you can follow the following instructions:
+
+### Manually activate the environment with the VSCode terminal
 
 In case a terminal is not open yet, click `Terminal`->`New Terminal` from the top bar and execute
 ```
@@ -94,30 +103,9 @@ To activate the workshop environment. Then execute (also from the Pkg terminal)
 instantiate
 ```
 
-To install all the required packages. You should now be able to run all the notebooks in this workshop environment.
+To install all the required packages. 
 
 ---
-
-### Troubleshooting
-
-#### Error opening notebooks in Windows VS Code
-In Windows, we noticed that notebooks may sometimes error when trying to open them in Visual Studio Code. This has to do with the path length limit in the Windows filesystem. The easiest fix is to place the repository folder in a directory that is higher up, so the paths will not be too long. 
-
- # Download MISI Calculator
- 
-
-You can download this GitHub repository  by clicking on the green CODE button and selecting Download ZIP. and open it in Visual Studio Code. 
-
-<img src="assets/Dowload_repository.PNG" width="700" height="400">
-
-Extract the files in this folder and naviage to the folder location in Visual Studio Code interface by selecting 'Open Folder' in the File Tab. 
-
-Open the `calculate_misi.jl` file and edit the `INPUT_FILE_NAME` and `OUTPUT_FILE_NAME` variables to match your desired files. Then, run the file by pressing `F5` or by clicking on the "Run" button in the top right corner of the editor (red circle).
-
-<img src="assets/Run_MISI.PNG" width="700" height="400">
-
-> [!IMPORTANT]
-> Make sure your input file is an Excel file that is formatted in the same way as the example file: `Sample_Data.xlsx`.
 
 ## References
 [^1]: O’Donovan, S. D. et al. Improved quantification of muscle insulin sensitivity using oral glucose tolerance test data: the MISI Calculator. Sci Rep 9, 9388 (2019).
