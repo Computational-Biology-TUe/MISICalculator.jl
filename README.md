@@ -78,7 +78,7 @@ Open the `calculate_misi.jl` file and edit the `INPUT_FILE_NAME` and `OUTPUT_FIL
 > [!IMPORTANT]
 > Make sure your input file is an Excel file that is formatted in the same way as the example file: `Sample_Data.xlsx`.
 
-> [!INFO]
+> [!TIP]
 > The `calculate_misi.jl` file automatically installs the necessary packages and activates the right environment for running the MISI calculator.
 
 If you want to manually activate the environment, you can follow the following instructions:
